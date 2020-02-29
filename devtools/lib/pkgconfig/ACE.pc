@@ -1,0 +1,10 @@
+prefix=/home/pi/git-innoaus/prebuilt_libs_raspbian/devtools
+exec_prefix=/home/pi/git-innoaus/prebuilt_libs_raspbian/devtools
+libdir=/home/pi/git-innoaus/prebuilt_libs_raspbian/devtools/lib
+includedir=/home/pi/git-innoaus/prebuilt_libs_raspbian/devtools/include
+
+Name: ACE
+Description: ADAPTIVE Communication Environment 
+Version: 6.5.3
+Libs: -L${libdir} -lACE -ldl -lrt
+Cflags: -I${includedir}
